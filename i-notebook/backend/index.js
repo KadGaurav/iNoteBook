@@ -15,5 +15,5 @@ app.use('/api/notes',require('./routes/notes'));
  
 
 app.listen(port,()=>{
-    console.log(`Connected to http://localhost:${port}`);
+    console.log(`Backend connected --> http://localhost:${port}`);
 })
